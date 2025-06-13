@@ -1,0 +1,155 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.navbar-bran{
+    font-size: 2rem;
+    color: rgb(248, 26, 92);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 500;
+}
+.nav-item .nav-link{
+    /* margin-right: 10px;
+    margin-left: 10px; */
+    text-transform: uppercase;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+.nav-item .nav-link:hover{
+    color: rgb(248, 26, 92);
+    font-weight: 600;
+}
+.search{
+    height: 40px;
+    width: 80%;
+    border-radius: 60px;
+    outline: none;
+    margin-right: -35px;
+    border: 2px solid rgb(248, 26, 92);
+
+}
+.btn0{
+    height: 40px;
+    width: 40%;
+    outline: none;
+    border: none;
+    background-color: rgb(248, 26, 92);
+    color: white;
+    font-weight: 700;
+    border-radius: 60px;
+}
+.main{
+    background: url(img/bg\ img4.webp);
+    background-size: cover;
+    height: 120vh;
+    background-position: 50% 50%;
+    width: 100%;
+}
+.main h1{
+    font-size: 3rem;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: center;
+    align-items: center;
+    margin-top: 28%;
+
+}
+.btn1{
+    height: 45px;
+    width: 25%;
+    border: none;
+    outline: none;
+    background-color: rgb(248, 26, 92);
+    color: white;
+    font-weight: 500;
+    border-radius: 60px;
+}
+.btn1:hover{
+    background-color: rgb(66, 226, 146);
+    transition: 0.5s;
+}
+.card:hover{
+    box-shadow: -2px -1px 25px -4px rgba(0,0,0,0.75);
+-webkit-box-shadow: -2px -1px 25px -4px rgba(0,0,0,0.75);
+-moz-box-shadow: -2px -1px 25px -4px rgba(0,0,0,0.75);
+transition: 0.5s;
+}
+.new img{
+    height: 150px;
+    width: 150px;
+}
+/* trending */
+.product h1{
+    font-weight: 700;
+}
+.product img{
+    height: 250px;
+    width: 250px;
+}
+/* reviews */
+.about h1{
+    font-weight: 700;
+}
+.about img{
+    border-radius: 10px;
+}
+.center-img img{
+    height: 230px;
+    width: 350px;
+}
+/* shop section */
+.shop img{
+    height: 180px;
+    width: 180px;
+}
+.apple{
+    background:url(img/girl-3.avif)no-repeat;
+    height:100%;
+    background-size: cover;
+    padding-top: 5rem;
+}
+.apple h1{
+    font-family:'Gill Sans' 'Trebuchet MS', sans-serif;
+    font-weight: 700;
+    margin-top: 5rem;
+}
+.apple h6{
+    font-size: 1.5rem;
+}
+
+/* footer section */
+.news{
+    background-color: black;
+    color: white;
+}
+.btn2{
+    height: 45px;
+    width: 100px;
+    background: white;
+    margin-left: -10px;
+    border: 2px soild white;
+    font-weight:600;
+}
+.news input{
+    height: 45px;
+    width: 55%;
+    border: 2px soild white;
+    outline: none;
+    background: black;
+    color: white;
+    margin-top: 20px;
+    font-weight: 600;
+}
+.news ::placeholder{
+    color: white;
+}
+.news p{
+ margin: 0;
+}
+ span{
+    font-size: 1.5rem;
+    cursor: pointer;
+    padding-right: 5px;
+}
